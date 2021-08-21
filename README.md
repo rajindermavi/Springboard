@@ -17,10 +17,13 @@ Original versions can be found on the Springboard curriculum [website](https://g
     * Utilizing Pandas to run basic queries on datasets
     * Aggregate, visualize, and transform data 
 
+* Wrangling JSON exercise
+    * Convert JSON to Pandas
+    * Query data using Pandas
+
 * Scrapy 
     * Construct web crawling spider to pull quotes from http://quotes.toscrape.com
      
-
 * Linear regression
     * Simple and Multilinear
     * Inspecting data for suitability (ie normalcy) of data for linear regression
@@ -44,8 +47,19 @@ Original versions can be found on the Springboard curriculum [website](https://g
     * Visualizing clusters with PCA
     * Selecting cluster number with Elbow and Silhouette method
 
-* Anomoly detection
+* Anomaly detection
+    * EDA visualizations
+    * Univariate anomaly detection: statistical outliers, Isolation forest 
+    * Multivariate anomaly detection: CBLOF, Isolation Forest, Auto-Encoders 
 
 * Recommendation systems
+    * Movie dataset: visualize movies by ratings.
+    * Global ratings based recommendations, mean rating, weighted rating
+    * Content information as natural language data: use of tfid to encode content of movies, cosine similarity measure to rate similarity of movies.
+    * Create recommendations based on sample movies.
+    * Collaborative filtering recommendation
+    * Hybrid combined collaborative and content recommendation
 
 * Time series analysis
+    * ARIMA model, selecting proper model: statsmodels
+    * LSTM modeling
